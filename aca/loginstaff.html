@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	
+  <link href="loginstaff.css" rel="stylesheet">
+<script type="text/javascript">
+    function myFunction() 
+	{
+	
+		var x = document.getElementById("uname").value;
+		var a ="abisek";
+
+ 		if (x==a)
+ 		 {
+  			location.replace("2.html")
+		 }
+  		else
+		{
+  			alert("Invalid user");
+		}
+
+
+	}	
+</script>
+	
+</head>
+
+
+<body>
+  <form action="uname.php" method="post">
+  <center><br><br>
+ 
+  <br>
+  <h1 style="color: white"><b>Welcome to svce</b></h1><br>
+  
+  <p style="color: white"><b>Enter your user name</b></p>
+  <input type="text" id="uname" name="fname">
+ 
+
+  <button class="button button1" onclick="myFunction()">Log-in</button>
+  </center></form>
+  
+
+
+
+
+
+
+
+
+</body></html>

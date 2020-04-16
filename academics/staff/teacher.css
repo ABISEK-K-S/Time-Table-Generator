@@ -1,0 +1,19 @@
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+option
+
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+

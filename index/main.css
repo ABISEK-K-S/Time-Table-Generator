@@ -1,0 +1,52 @@
+
+body
+{
+   
+   
+    color:white;
+	background-color: black;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+
+
+
+ul {
+
+   
+	font-size:100px;
+    border: solid red;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: 410px;
+
+     
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+li a:hover {
+  
+  color: red;
+}
+
+li a.active {
+  
+  color:gold;
+}
+
+

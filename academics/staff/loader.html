@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" href="loader.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
+
+<script type="text/javascript">
+   setTimeout(function () {
+
+      
+       alert("Logged out Successfull!!! ");
+        window.location.href = "../../academics.html"; 
+    }, 3500);
+
+</script>
+
+
+
+<style>
+.loader {
+  border: 16px solid white;
+  border-radius:50%;
+  border-top: 15px solid yellow;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 1.5s linear infinite; 
+  animation: spin 1.5s linear infinite;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body>
+
+<center><br><br><br><br><br><br><br><br><br><br><br>
+<div class="loader" id="time"></div></center>
+<center><h1 style="color: white">Processing</h1></center>
+</body>
+</html>

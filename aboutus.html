@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" href="aboutus/main.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:500|Patua+One|Poiret+One" rel="stylesheet">
+
+
+<script>
+var i = 0;
+var txt = "Sri Venkateswara College of Engineering(SVCE), a unit of Sri Venkateswara Educational and Health Trust(SVEHT), was inaugurated by the then Governor of Tamil Nadu, Hon'ble Shri S L Khurana. The inaugural function of the college complex at Nazarathpet took place on 8th April 1985. Formal academic classes were inaugurated by Mr C. Subramanian on 19th August 1985.The GRIHAPRAVESAM function of the new Campus was performed on 25.07.1991. The Campus houses a Vinayaka temple . The new Campus was inaugurated on 5.12.1992 by the then President of India, His Excellency Shri R Venkataraman.A major objective of this Institution is to plan and implement a programme of education in Engineering and Allied Sciences in order to promote research, to disseminate knowledge and to foster cooperation and exchange of ideas between the academic community and industrial organizations and to develop entrepreneurship skills among students. It strives to achieve academic excellence along with the harmonious development of personality of students.The Governing Council, which is the Apex Body for the governance of the college, is chaired by well-known industrialist and philanthropist Dr. A.C.Muthiah, Chairman, SPIC Ltd. Under his guidance, the college has progressed phenomenally. In a span of the two decades, there has been an all round development in infrastructure and research and academic activities.Twenty two batches of students have passed out of the College. Many of them have completed their Masters Degree. Several of our Alumni have completed PhD and work in prestigious US and Indian Universities. Many work in reputed companies like General Motors, Microsoft, CISCO, GEC, Infosys, TCS, CTS, HCL, TVS, Hindustan Motors, etc. A few are entrepreneurs.The College is situated in an area of about 94 acres at Pennalur, Sriperumbudur, with excellent infrastructural facilities that include instructional buildings, laboratories, workshops, faculty rooms, office, conference hall, dispensary, technology innovation centre, staff quarters, guest house, open air auditorium, library, canteen, hostels, swimming pool, RO plant, gymnasium, indoor sports facility and play grounds.The college celebrated its decennium on 16.03.1996 and then Honorable Minister of State for Commerce Shri P. Chidambaram presided over the function. The college conducted the Graduation Day for the first time on 10.01.2009 with the eminent scientist Dr. Mayilswamy Annadurai as the Guest of honour. Academic year 2009-10 was the Silver Jubilee Year of the College. The college conducted the second Graduation Day on 29.3.2010 with the eminent scientist Dr Thirumalachari Ramasami as the Guest of honour.";
+var speed = 8;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+
+
+</head>
+<body onload="typeWriter()">
+
+
+<center>
+<br>
+	<h1 style="font-family: Ubuntu">Sri Venkateswara College of Engineering</h1>
+     <h3>(Autonomous- Affiliated to Anna University)</h3>
+
+
+
+
+<br>
+<ul style="font-family:Patua One">
+  <li><a  href="index.html">Home</a></li>
+  <li><a class="active" href="aboutus.html">About us</a></li>
+  <li><a href="academics.html">Academics</a></li>
+  <li ><a href="contact.html">Contact</a></li>
+</ul>
+
+
+<br><hr>
+
+
+<br>
+
+
+
+<p id="demo" style="width: 80%;border:dashed red;border-radius:6px;font-size: 18px;color: black;background-color: #DEB887"></p>
+
+</center>
+
+</body></html>
